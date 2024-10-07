@@ -6,7 +6,7 @@ import '../../styles/main.scss'
 const SearchPannel = () => {
   return (
     <div className='search-panel container-custom'>
-      <DatePicker></DatePicker>
+      <DatePicker/> 
     </div>
   )
 }

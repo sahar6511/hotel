@@ -4,6 +4,9 @@ import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 import SearchPannel from "../SearchPanel/SearchPanel";
 import ShowRooms from "../ShowRooms/ShowRooms";
+import { DtPicker } from "react-calendar-datetime-picker";
+import DatePicker from "../DatePicker/DatePicker";
+import '../../styles/main.scss'
 
 
 const OnlineReservasion = () => {
@@ -11,7 +14,7 @@ const OnlineReservasion = () => {
     <div className="online-reserve">
       <TopMenu />
       <Header />
-      <SearchPannel/>
+      <DatePicker/>
       <ShowRooms/>
       <Footer/>
     </div>
